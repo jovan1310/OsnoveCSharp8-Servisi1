@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // builder.Services.AddScoped<IMojServis, MojServis>();
 // Kreira posebnu instancu za svaki od posrednika za svaki zahtevi, odnosno, svako od njih dobija novi id za svaki zahtev:
 // builder.Services.AddTransient<IMojServis, MojServis>();
-
+// A
 var app = builder.Build();
 
 app.Use(async (context, next) =>
